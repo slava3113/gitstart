@@ -1,0 +1,69 @@
+.book {
+  &__container {}
+
+  &__wrapper {
+  
+  }
+
+  &__img {
+    width: 168px;
+    height: 250px;
+    margin: 0px auto;
+    display: block;
+  }
+
+  
+
+  &__content {
+    margin-top: 20px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: $light;
+    margin-bottom: 4px;
+  }
+
+  &__autor {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: $primarydark;
+    margin-bottom: 15px;
+  }
+
+  &__rating {
+    margin-bottom: 15px;
+  }
+
+  &__rating-start {
+    width: 36px;
+    height: 36px;
+
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 4px;
+  }
+
+  &__description {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  &__label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 13px 103px;
+    background-color: $light;
+    border-radius: 30px;
+  }
+}
